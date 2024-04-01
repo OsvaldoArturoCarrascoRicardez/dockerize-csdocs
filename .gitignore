@@ -1,9 +1,9 @@
 # carpetas BD
+/projects/*
 /csdocs/data/mongodb/*
 /csdocs/data/mysql/*
 /csdocs/data/mysqql/*
 /csdocs/data/redis/*
-/projects/*
 .DS_Store
 .idea
 Thumbs.db
