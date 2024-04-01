@@ -1,0 +1,19 @@
+# carpeta contenedora con los proyectos backend
+/projects/*
+
+# carpetas BD
+/csdocs/data/mongodb/*
+/csdocs/data/mysql/*
+/csdocs/data/mysqql/*
+/csdocs/data/redis/*
+
+# carpetas auxiliares (volumen)
+/folders/backup/*
+/folders/error/*
+/folders/gestor/*
+/folders/publisher_arch/*
+/folders/publisher/*
+/folders/TEMPDIR/*
+/folders/trash_gestor/*
+
+.DS_Store
