@@ -21,7 +21,7 @@ services:
       - ${PATH_PROJECTS}/ControlGestionBack:/var/www/html/cg
       - ${PATH_PROJECTS}/content-light-back:/var/www/html/cont
       - ${PATH_PROJECTS}/csdocs-efirma:/var/www/html/firma
-      - ${PATH_PROJECTS}/piso73-back:/var/www/html/piso73
+      - ${PATH_PROJECTS}/piso73:/var/www/html/piso73
       # config nginx
       - ${PATH_DOCKER}/nginx/default.conf:/etc/nginx/conf.d/default.conf
       # paths content
@@ -128,7 +128,7 @@ services:
     restart: unless-stopped
     working_dir: /var/www/html
     volumes:
-      - ${PATH_PROJECTS}/piso73-back:/var/www/html/piso73
+      - ${PATH_PROJECTS}/piso73:/var/www/html/piso73
     ports:
       - "9011:9000"
     links:
