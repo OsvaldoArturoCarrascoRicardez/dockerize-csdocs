@@ -5,3 +5,5 @@
 /csdocs/data/redis/*
 
 .DS_Store
+.idea
+Thumbs.db
