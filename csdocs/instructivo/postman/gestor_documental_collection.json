@@ -1,0 +1,3567 @@
+{
+    "variable": [
+        {
+            "key": "base_url",
+            "value": "http://10.1.4.150:91"
+        }
+    ],
+    "info": {
+        "name": "Gestor Documental",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "api/auth/login",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/auth/login",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "auth",
+                        "login"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/auth/register",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/auth/register",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "auth",
+                        "register"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/auth/add-user",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/auth/add-user",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "auth",
+                        "add-user"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/users/getProfilePicture/{id}/{type?}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/users/getProfilePicture/:id/{type?}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "users",
+                        "getProfilePicture",
+                        ":id",
+                        "{type?}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/data-licences",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/data-licences",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "data-licences"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/preferences",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/preferences",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "preferences"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/preferences",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/preferences",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "preferences"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/guide",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/guide",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "guide"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/auth/logout",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/auth/logout",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "auth",
+                        "logout"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/users/update-data-user",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/users/update-data-user",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "users",
+                        "update-data-user"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/users/total-data-user",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/users/total-data-user",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "users",
+                        "total-data-user"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/users/profileSetting/{user_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/users/profileSetting/{user_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "users",
+                        "profileSetting",
+                        "{user_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/users/addProfilePicture",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/users/addProfilePicture",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "users",
+                        "addProfilePicture"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/users/deleteProfilePicture/{user_id}",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/users/deleteProfilePicture/{user_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "users",
+                        "deleteProfilePicture",
+                        "{user_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/company",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/company",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "company"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/company/{id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/company/:id",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "company",
+                        ":id"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/company",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/company",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "company"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/company/{id}",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/company/:id",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "company",
+                        ":id"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/company/{id}",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/company/:id",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "company",
+                        ":id"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/structure-type-unit",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/structure-type-unit",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "structure-type-unit"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/structure-type-unit",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/structure-type-unit",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "structure-type-unit"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/organizational-unit/create",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/organizational-unit/create",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "organizational-unit",
+                        "create"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/organizational-unit/update",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/organizational-unit/update",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "organizational-unit",
+                        "update"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/organizational-unit/delete",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/organizational-unit/delete",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "organizational-unit",
+                        "delete"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/organizational-unit/tree-company-units",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/organizational-unit/tree-company-units",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "organizational-unit",
+                        "tree-company-units"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/organizational-unit/add-user",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/organizational-unit/add-user",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "organizational-unit",
+                        "add-user"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/organizational-unit/unlink-user",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/organizational-unit/unlink-user",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "organizational-unit",
+                        "unlink-user"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/organizational-unit/user-unit-org",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/organizational-unit/user-unit-org",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "organizational-unit",
+                        "user-unit-org"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/organizational-unit/info-user/{user_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/organizational-unit/info-user/{user_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "organizational-unit",
+                        "info-user",
+                        "{user_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/organizational-unit/user-not-unit/{organizationalUnit_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/organizational-unit/user-not-unit/{organizationalUnit_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "organizational-unit",
+                        "user-not-unit",
+                        "{organizationalUnit_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/profile",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/profile",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "profile"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/profile/{profile_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/profile/{profile_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "profile",
+                        "{profile_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/profile/create",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/profile/create",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "profile",
+                        "create"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/profile/update",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/profile/update",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "profile",
+                        "update"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/profile/delete/{id}",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/profile/delete/:id",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "profile",
+                        "delete",
+                        ":id"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/permissions",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/permissions",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "permissions"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group/{group_id}",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group/{group_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group",
+                        "{group_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group/{group_id}",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group/{group_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group",
+                        "{group_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group/add-user-group",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group/add-user-group",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group",
+                        "add-user-group"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group/unlink-user/{group_id}/{user_id}",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group/unlink-user/{group_id}/{user_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group",
+                        "unlink-user",
+                        "{group_id}",
+                        "{user_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group/add-repository",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group/add-repository",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group",
+                        "add-repository"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group/unlink-repository",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group/unlink-repository",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group",
+                        "unlink-repository"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group/info-user/{user_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group/info-user/{user_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group",
+                        "info-user",
+                        "{user_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group/user-not-group/{group_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group/user-not-group/{group_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group",
+                        "user-not-group",
+                        "{group_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/group/use-not-use/{group_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/group/use-not-use/{group_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "group",
+                        "use-not-use",
+                        "{group_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/repository",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/repository",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "repository"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/repository",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/repository",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "repository"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/repository",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/repository",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "repository"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/repository/delete/{repository_id}",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/repository/delete/{repository_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "repository",
+                        "delete",
+                        "{repository_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/repository/duplicate",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/repository/duplicate",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "repository",
+                        "duplicate"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/repository/validatekey",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/repository/validatekey",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "repository",
+                        "validatekey"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/repository/info-repository/{user_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/repository/info-repository/{user_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "repository",
+                        "info-repository",
+                        "{user_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/repository/user/{user_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/repository/user/{user_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "repository",
+                        "user",
+                        "{user_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/repository/usersInstanceRepository/{user_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/repository/usersInstanceRepository/{user_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "repository",
+                        "usersInstanceRepository",
+                        "{user_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/repository/metadataByRepository/{repository_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/repository/metadataByRepository/{repository_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "repository",
+                        "metadataByRepository",
+                        "{repository_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/generator/{repository_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/generator/{repository_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "generator",
+                        "{repository_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/generator",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/generator",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "generator"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/generator",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/generator",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "generator"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/generator/generateXML",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/generator/generateXML",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "generator",
+                        "generateXML"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/generator/buildSeparators",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/generator/buildSeparators",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "generator",
+                        "buildSeparators"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/generator/buildCoverPDF",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/generator/buildCoverPDF",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "generator",
+                        "buildCoverPDF"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/generator/saveSeparatorConfig",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/generator/saveSeparatorConfig",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "generator",
+                        "saveSeparatorConfig"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/select-type-metadata",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/select-type-metadata",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "select-type-metadata"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/add-metadata",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/add-metadata",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "add-metadata"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/update-metadata",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/update-metadata",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "update-metadata"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/delete-metadata",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/delete-metadata",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "delete-metadata"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/structure/repository",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/structure/repository",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "structure",
+                        "repository"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/{instance_id}/{repository_id}/{file_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/{instance_id}/{repository_id}/{file_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "{instance_id}",
+                        "{repository_id}",
+                        "{file_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/add-field-catalog-compound",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/add-field-catalog-compound",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "add-field-catalog-compound"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/add-value-catalog-compound",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/add-value-catalog-compound",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "add-value-catalog-compound"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/add-values-catalog-compound",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/add-values-catalog-compound",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "add-values-catalog-compound"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/add-values-catalog-list",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/add-values-catalog-list",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "add-values-catalog-list"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/delete-field_catalog",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/delete-field_catalog",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "delete-field_catalog"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/delete-values-catalog-compound",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/delete-values-catalog-compound",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "delete-values-catalog-compound"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/metadata/delete-field-catalog-list",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/metadata/delete-field-catalog-list",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "metadata",
+                        "delete-field-catalog-list"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/directory/{repository_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/directory/{repository_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "directory",
+                        "{repository_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/directory/create",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/directory/create",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "directory",
+                        "create"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/directory/{directory_id}",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/directory/{directory_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "directory",
+                        "{directory_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/directory/{repository_id}",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/directory/{repository_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "directory",
+                        "{repository_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/file",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/file",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "file"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/file/directories/{repository_id}/{directory_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/file/directories/{repository_id}/{directory_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "file",
+                        "directories",
+                        "{repository_id}",
+                        "{directory_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/file/update-metadata",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/file/update-metadata",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "file",
+                        "update-metadata"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/file/pdf",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/file/pdf",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "file",
+                        "pdf"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/file/showImage/{volume_id}/{file_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/file/showImage/{volume_id}/{file_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "file",
+                        "showImage",
+                        "{volume_id}",
+                        "{file_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/file/download",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/file/download",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "file",
+                        "download"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/search",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/search",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "search"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/note/{file_id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/note/{file_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "note",
+                        "{file_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/note/create",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/note/create",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "note",
+                        "create"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/note/{note_id}",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/note/{note_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "note",
+                        "{note_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/note/{note_id}",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/note/{note_id}",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "note",
+                        "{note_id}"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/volume",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/volume",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "volume"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/volume",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/volume",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "volume"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/volume/{id}",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/volume/:id",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "volume",
+                        ":id"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/volume/{id}",
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/volume/:id",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "volume",
+                        ":id"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/system-setting/get-tree-navigation",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/system-setting/get-tree-navigation",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "system-setting",
+                        "get-tree-navigation"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/system-setting/cat-system-user-rol",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/system-setting/cat-system-user-rol",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "system-setting",
+                        "cat-system-user-rol"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/system-setting/information-data-first-time",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/system-setting/information-data-first-time",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "system-setting",
+                        "information-data-first-time"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/system-setting/data-information-data-first-time",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/system-setting/data-information-data-first-time",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "system-setting",
+                        "data-information-data-first-time"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/system-setting/modify-code",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/system-setting/modify-code",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "system-setting",
+                        "modify-code"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/system-setting/get-settings",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/system-setting/get-settings",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "system-setting",
+                        "get-settings"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/system-setting/system-logo",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/system-setting/system-logo",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "system-setting",
+                        "system-logo"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/system-setting/logo",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/system-setting/logo",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "system-setting",
+                        "logo"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/license",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/license",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "license"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/license/active",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "url": {
+                    "raw": "{{base_url}}/license/active",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "license",
+                        "active"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/domain/{id}",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/domain/:id",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "domain",
+                        ":id"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/domain",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/domain",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "domain"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/instances",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/instances",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "instances"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        },
+        {
+            "name": "api/instances/chartDocuments",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                    
+                ],
+                "url": {
+                    "raw": "{{base_url}}/instances/chartDocuments",
+                    "host": [
+                        "{{base_url}}"
+                    ],
+                    "path": [
+                        "instances",
+                        "chartDocuments"
+                    ],
+                    "variable": []
+                },
+                "description": ""
+            },
+            "response": [],
+            "protocolProfileBehavior": {
+                "disableBodyPruning": false
+            }
+        }
+    ],
+    "event": []
+}
