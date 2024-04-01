@@ -1,0 +1,8 @@
+# carpeta contenedora con los proyectos backend
+./archivisticaback/*
+./content-light-back/*
+./ControlGestionBack/*
+./csdocs-efirma/*
+./csdocsqr/*
+./gestor_content/*
+./gestor_ws/*

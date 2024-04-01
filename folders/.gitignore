@@ -1,0 +1,8 @@
+# carpetas auxiliares (volumen)
+/backup/*
+/error/*
+/gestor/*
+/publisher_arch/*
+/publisher/*
+/TEMPDIR/*
+/trash_gestor/*
