@@ -64,7 +64,7 @@ sudo chmod -R 777 storage/efirma/SystemSetting
 **Creación de archivo de log**
 
 ```bash
-sudo vim storage/logs/laravel.log
+sudo touch storage/logs/laravel.log
 
 sudo chmod 777 storage/logs/laravel.log
 ```

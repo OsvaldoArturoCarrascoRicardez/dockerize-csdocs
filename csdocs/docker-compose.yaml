@@ -221,6 +221,7 @@ services:
 
       - ${PATH_PROJECTS}/archivisticaback:/var/www/html/arch
       - ${PATH_PROJECTS}/ControlGestionBack:/var/www/html/cg
+      - ${PATH_PROJECTS}/content-light-back:/var/www/html/cont
 
   mailhog:
     image: mailhog/mailhog:latest
