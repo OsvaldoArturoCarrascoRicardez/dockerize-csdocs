@@ -401,8 +401,11 @@ sudo vim projects/editor/src/environments/environment.ts
 ```ts
 export const environment = {
   production: false,
-  apiUrl: "http://localhost:50",
-  pdfjsAssetsPath: "/assets/pdfjs/",
+  apiUrl: 'http://pluginword.net',
+  CGHost: 'http://localhost:50',
+  CGFront: 'http://localhost:4200',
+  pdfjsAssetsPath: '/assets/pdfjs/',
+  apiTemp: 'http://192.168.1.47:3000'
 };
 ```
 
@@ -415,7 +418,7 @@ sudo vim projects/archivistica/src/environments/environment.ts
 ```ts
 export const environment = {
   production: false,
-  apiUrlCG: "http://localhost:50",
+  apiUrlCG: 'http://localhost:50',
 };
 ```
 
