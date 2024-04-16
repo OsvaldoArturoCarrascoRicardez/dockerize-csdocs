@@ -1,4 +1,4 @@
-FROM php:8.1-fpm
+FROM php:7.4-fpm
 
 # Arguments defined in docker-compose.yml
 ARG user
@@ -23,6 +23,7 @@ RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     poppler-utils \
     cron \
+    vim \
     curl
 
 
@@ -34,17 +35,12 @@ RUN docker-php-ext-configure gd --enable-gd --with-freetype --with-jpeg
 
 RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
 
-# Get latest Composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
 # Copia el archivo php.ini personalizado
 COPY config/php.ini /usr/local/etc/php/php.ini
 
-# Copy crontab file to the cron.d directory
-COPY /cron/crontab_cont /etc/cron.d/crontab
+# Get latest Composer
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Give execution rights on the cron job
-RUN chmod 0644 /etc/cron.d/crontab
+RUN pecl install apcu
 
-# Apply cron job
-RUN crontab /etc/cron.d/crontab
+RUN docker-php-ext-enable apcu
