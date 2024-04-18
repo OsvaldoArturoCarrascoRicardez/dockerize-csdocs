@@ -41,14 +41,15 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Copia el archivo php.ini personalizado
 COPY config/php.ini /usr/local/etc/php/php.ini
 
-# Copiar el archivo cron
-COPY /cron/crontab_cg /etc/cron.d/mycronjob
 
-# Establecer permisos
+# Copy the cron file
+COPY cron/crontab_cg /etc/cron.d/mycronjob
+
+# Set permissions
 RUN chmod 0644 /etc/cron.d/mycronjob
 
-# Reiniciar el servicio cron
-RUN service cron restart
+# Start the cron service
+RUN service cron start
 
 # Apply cron job
 # RUN crontab /etc/cron.d/crontab
