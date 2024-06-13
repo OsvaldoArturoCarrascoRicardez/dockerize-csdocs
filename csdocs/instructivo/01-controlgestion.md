@@ -81,7 +81,7 @@ sudo chmod 777 storage/logs
 **Creación de archivo de log**
 
 ```bash
-sudo vim storage/logs/laravel.log
+sudo touch storage/logs/laravel.log
 
 sudo chmod 777 storage/logs/laravel.log
 ```
@@ -148,7 +148,7 @@ REDIS_PORT=6379
 1. **`Docker`** Instalación de Laravel, entrar al contenedor de controlgestion ejecutando
 
 ```bash
-docker exec -it controlgestion_php bash
+docker exec -it php81 bash
 ```
 
 1. Dentro del contenedor ejecuta:

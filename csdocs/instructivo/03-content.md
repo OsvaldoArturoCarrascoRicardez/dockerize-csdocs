@@ -39,12 +39,14 @@ Esto creará la carpeta: content-light-back
 ```bash
 sudo mkdir -m 777 storage
 sudo mkdir -m 777 storage/framework
-sudo mkdir -m 777 storage/framework/views
 sudo mkdir -m 777 storage/framework/cache
+sudo mkdir -m 777 storage/framework/cache/data
 sudo mkdir -m 777 storage/framework/sessions
 sudo mkdir -m 777 storage/framework/testing
+sudo mkdir -m 777 storage/framework/views
 sudo mkdir -m 777 storage/logs
 sudo mkdir -m 777 storage/app
+sudo mkdir -m 777 storage/app/public
 sudo mkdir -m 777 bootstrap/cache
 ```
 
@@ -54,6 +56,7 @@ sudo mkdir -m 777 bootstrap/cache
 sudo chmod 777 bootstrap
 sudo chmod 777 bootstrap/cache
 sudo chmod 777 storage/app
+sudo chmod 777 storage/app/public
 sudo chmod 777 storage/framework
 sudo chmod 777 storage/framework/views
 sudo chmod 777 storage/framework/cache
@@ -66,7 +69,7 @@ sudo chmod 777 storage/logs
 **Creación de archivo de log**
 
 ```bash
-sudo vim storage/logs/laravel.log
+sudo touch storage/logs/laravel.log
 
 sudo chmod 777 storage/logs/laravel.log
 ```

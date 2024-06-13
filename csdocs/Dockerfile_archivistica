@@ -23,6 +23,7 @@ RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     poppler-utils \
     cron \
+    ghostscript \
     vim \
     curl
 

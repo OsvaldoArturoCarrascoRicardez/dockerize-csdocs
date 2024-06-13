@@ -14,10 +14,17 @@ docker-compose up -d
 
 ### Configuración y acceso de phpMyAdmin a MySQL
 
-Para entrar al contenedor de MySQL usa:
+En NAS configurar fullText e Index
 
 ```bash
-docker exec -it mysql bash
+cp /tmp/latin1.xml /usr/share/mysql-8.0/charsets/
+cp /tmp/Index.xml /usr/share/mysql-8.0/charsets/
+```
+
+Para entrar a la consola de MySQL usa:
+
+```bash
+mysql -u root -p
 ```
 
 Para entrar a la consola de MySQL usa:
