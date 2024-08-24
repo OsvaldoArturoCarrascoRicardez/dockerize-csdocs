@@ -20,7 +20,6 @@ sudo apt install net-tools
 
 ```bash
 sudo timedatectl set-timezone America/Mexico_City
-sudo timedatectl set-timezone America/Mazatlan
 ```
 
 3. Verificamos Fecha:

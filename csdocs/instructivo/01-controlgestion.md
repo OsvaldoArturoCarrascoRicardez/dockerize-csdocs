@@ -390,6 +390,8 @@ cd projects/editor/src/ckeditor5-build-decoupled-document
 sudo npm install --legacy-peer-deps
 
 sudo npm run build
+
+cd ../../../../
 ```
 
 **Creamos environment de editor**

@@ -3,13 +3,13 @@
 ### Construir el contenedor
 
 ```bash
-docker-compose build
+docker compose build
 ```
 
 ### Levantar Contenedor
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### Configuración y acceso de phpMyAdmin a MySQL

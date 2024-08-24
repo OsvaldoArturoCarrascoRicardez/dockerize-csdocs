@@ -138,6 +138,8 @@ docker exec -it archivistica_php bash
 
 ```bash
 composer install
+
+sudo chmod -R 777 vendor/mpdf/mpdf/tmp
 ```
 
 1. Valida ejecutando
