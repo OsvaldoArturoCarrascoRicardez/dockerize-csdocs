@@ -103,4 +103,11 @@ sudo supervisorctl update
 
    Sustituye `controlgestion` por el nombre que has utilizado en el archivo de configuración.
 
+5. Reiniciar todos los procesos: Si deseas reiniciar todos los procesos gestionados por Supervisor, usa::
+
+   ```bash
+   sudo supervisorctl restart all
+   ```
+
 Con estos pasos, has creado una nueva tarea que Supervisor puede administrar. Puedes repetir este proceso para agregar más tareas según tus necesidades.
+
